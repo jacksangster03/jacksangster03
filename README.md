@@ -71,7 +71,7 @@ English (native) · Spanish (native) · German (advanced) · Russian (intermedia
 | Degree | Institution | Years |
 |---|---|---|
 | Dual Master's: Management + CS & Business Technology | IE University, Madrid | 2025–2027 |
-| BSc Biochemistry (Upper-Second Class Honours) | Imperial College London | 2022–2025 |
+| BSc Biochemistry | Imperial College London | 2022–2025 |
 
 IE specialisations: Finance & Investments · GSK x IE Biopharma & AI Gateway · Management Xponential Technology
 
@@ -90,6 +90,6 @@ Final-year project: structural and biochemical characterisation of the CHKB Q328
 
 ## Contact
 
-- Email: [jacksangster.033@gmail.com](mailto:jacksangster.033@gmail.com)
+- Email: [jacksangster@student.ie.edu](mailto:jacksangster.033@gmail.com)
 - GitHub: [github.com/jacksangster03](https://github.com/jacksangster03)
 - LinkedIn: [linkedin.com/in/jacksangster](https://www.linkedin.com/in/jacksangster/)
