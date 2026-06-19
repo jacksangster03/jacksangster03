@@ -8,14 +8,29 @@ My background is unusual: structural biology and drug design on one side, equity
 
 ---
 
+## Selected projects & results
+
+| Project | What | Result |
+|---|---|---|
+| **Sentinel** | Geospatial crisis navigation for civilians in conflict zones. 3D globe, live ACLED/OpenSky/USGS layers, AI crisis assistant, crowdsourced hazard reporting. | **2nd place — IE University Cursor AI Hackathon, 300+ competitors** |
+| **SEIL** | AI-governed RAG platform for AstraZeneca Spain's oncology HCP engagement. 7 compliance routing pathways, demand intelligence generation, scored 4.9 vs 3.6 (AZ Engage Copilot). | **Runners-up — IE MIM Tech Impact Lab, 130+ participants, 24 teams** |
+| **SMILES-IUPAC Translation** | Seq2seq transformer for bi-directional SMILES/IUPAC translation, 500K+ PubChem pairs, custom tokenisers. PR #4931 merged to DeepChem. | GSoC 2026 proposal to DeepChem |
+| **Tox21 Toxicity Prediction** | Multitask neural network across 12 assays using DeepChem/MoleculeNet, scaffold splitting, ROC-AUC evaluation. | Molecular ML |
+| **Pharma Brief Automations** | Scheduled agentic pipelines: daily pharma/biotech intel brief (FDA, SEC EDGAR, ClinicalTrials.gov, PubMed, bioRxiv) + weekly FDA catalyst calendar with PDUFA dates and binary event classification. | Live, running daily |
+| **Briefly** | Portfolio-aware market intelligence platform. Morning briefs, pre-open intraday setup, event-driven breaking alerts via Telegram and email. | Solo, in progress |
+| **Cognix** | Personal health intelligence platform. Garmin + Oura integrations, deterministic daily readiness scoring, training mode output. | Solo, in progress |
+| **MatchKey** | AI job-matching portal with HR Copilot, skills extraction, values-based matching, MCP multi-agent architecture. | Accenture GenAI Mavericks Hackathon |
+
+---
+
 ## What I'm working on
 
 - Market intelligence platforms: portfolio-aware briefings, pre-open setups, event-driven alerts
-- AI agents and workflow automation for research and decision-making
+- Agentic pipelines and LLM orchestration for research and decision-making
+- RAG systems for regulated domains (pharma, finance)
 - Quantitative finance tooling: portfolio analytics, factor models, volatility forecasting
 - Cheminformatics and molecular ML: SMILES/IUPAC translation, toxicity prediction, molecular property modelling
 - Full-stack AI applications with Next.js, FastAPI, Supabase, and Python
-- Bioinformatics pipelines and structural biology tools
 
 ---
 
@@ -25,7 +40,7 @@ My background is unusual: structural biology and drug design on one side, equity
 - Machine learning for molecular biology, drug discovery, and pharma R&D
 - AI agents, LLM orchestration, and autonomous systems
 - Biotech, pharma tech, and digital health
-- Data dashboards, pipelines, and business intelligence
+- RAG, vector databases, and knowledge retrieval at scale
 - Cheminformatics, structural biology, and computational chemistry
 - Fintech infrastructure and capital markets technology
 
@@ -36,9 +51,12 @@ My background is unusual: structural biology and drug design on one side, equity
 **Languages**
 `Python` `R` `SQL` `TypeScript` `JavaScript` `MATLAB`
 
+**AI Engineering**
+`LangChain` `LangGraph` `RAG` `ChromaDB` `MCP` `Agentic Systems` `Anthropic API` `OpenAI API`
+
 **ML & Data**
-`PyTorch` `TensorFlow` `DeepChem` `scikit-learn` `LangChain` `LangGraph`
-`Pandas` `NumPy` `Matplotlib` `ARIMA` `GARCH` `Monte Carlo`
+`PyTorch` `TensorFlow` `DeepChem` `scikit-learn`
+`Pandas` `NumPy` `Matplotlib` `ARIMA` `GARCH` `Monte Carlo` `GNN`
 
 **Finance**
 `DCF/DDM modelling` `Comparable valuations` `Portfolio analysis` `Capital markets`
@@ -49,7 +67,8 @@ My background is unusual: structural biology and drug design on one side, equity
 `Cryo-EM` `NMR` `Drug design` `Bioinformatics`
 
 **Infrastructure**
-`Next.js` `React` `FastAPI` `Streamlit` `PostgreSQL` `Supabase` `Docker` `AWS` `Linux`
+`Next.js` `React` `Vite` `Three.js` `Tailwind` `Zustand` `FastAPI` `Streamlit`
+`PostgreSQL` `Supabase` `Docker` `AWS` `Linux`
 
 **Languages (human)**
 English (native) · Spanish (native) · German (advanced) · Russian (intermediate) · French (intermediate)
@@ -73,7 +92,7 @@ English (native) · Spanish (native) · German (advanced) · Russian (intermedia
 | Dual Master's: Management + CS & Business Technology | IE University, Madrid | 2025–2027 |
 | BSc Biochemistry | Imperial College London | 2022–2025 |
 
-IE specialisations: Finance & Investments · GSK x IE Biopharma & AI Gateway · Management Xponential Technology
+IE specialisations: Finance & Investments · GSK x IE Biopharma & AI Gateway · Management Xponential Technology · Tech Impact Lab (AstraZeneca Spain)
 
 Final-year project: structural and biochemical characterisation of the CHKB Q328R variant.
 
@@ -85,11 +104,13 @@ Final-year project: structural and biochemical characterisation of the CHKB Q328
 - Multi-agent LLM systems for financial research and automation
 - Graph neural networks for molecular property prediction
 - Mathematics for ML: linear algebra, multivariate calculus, PCA
+- Neurotech and BCI: EEG signal processing with MNE-Python
 
 ---
 
 ## Contact
 
-- Email: [jacksangster@student.ie.edu](mailto:jacksangster.033@gmail.com)
+- Portfolio: [jacksangster03.github.io](https://jacksangster03.github.io)
+- Email: [jacksangster.033@gmail.com](mailto:jacksangster.033@gmail.com)
 - GitHub: [github.com/jacksangster03](https://github.com/jacksangster03)
 - LinkedIn: [linkedin.com/in/jacksangster](https://www.linkedin.com/in/jacksangster/)
