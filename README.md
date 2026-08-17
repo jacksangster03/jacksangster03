@@ -12,6 +12,8 @@ My background is unusual: structural biology and drug design on one side, equity
 
 | Project | What | Result |
 |---|---|---|
+| **Argo** | AI deal desk for Amazon Shipping BD teams. Ingests RFQs, emails, and spreadsheets; deterministic serviceability rules + pricing engine (3 CM scenarios); logistic win-probability model trained on 360 historical deals; branded PPTX proposal. | **1st place — IE × Amazon Shipping Industry Challenge 2026, 240+ students** |
+| **RepMint** | AI camera coach. MediaPipe pose estimation (33-point), rep counting, form scoring, ROM/tempo/TUT, AI plan generator, 115-exercise library, session logging + insights + AI coach. | **1st place — IE AI Module Demo Day 2026, 240+ students** |
 | **Sentinel** | Geospatial crisis navigation for civilians in conflict zones. 3D globe, live ACLED/OpenSky/USGS layers, AI crisis assistant, crowdsourced hazard reporting. | **2nd place — IE University Cursor AI Hackathon, 300+ competitors** |
 | **SEIL** | AI-governed RAG platform for AstraZeneca Spain's oncology HCP engagement. 7 compliance routing pathways, demand intelligence generation, scored 4.9 vs 3.6 (AZ Engage Copilot). | **Runners-up — IE MIM Tech Impact Lab, 130+ participants, 24 teams** |
 | **SMILES-IUPAC Translation** | Seq2seq transformer for bi-directional SMILES/IUPAC translation, 500K+ PubChem pairs, custom tokenisers. PR #4931 merged to DeepChem. | GSoC 2026 proposal to DeepChem |
@@ -19,6 +21,7 @@ My background is unusual: structural biology and drug design on one side, equity
 | **Pharma Brief Automations** | Scheduled agentic pipelines: daily pharma/biotech intel brief (FDA, SEC EDGAR, ClinicalTrials.gov, PubMed, bioRxiv) + weekly FDA catalyst calendar with PDUFA dates and binary event classification. | Live, running daily |
 | **Briefly** | Portfolio-aware market intelligence platform. Morning briefs, pre-open intraday setup, event-driven breaking alerts via Telegram and email. | Solo, in progress |
 | **Cognix** | Personal health intelligence platform. Garmin + Oura integrations, deterministic daily readiness scoring, training mode output. | Solo, in progress |
+| **atmospheric-intelligence** | Physics-informed ML post-processing of NWP forecasts for Madrid and central Spain. AEMET + Open-Meteo + ECMWF → DuckDB, meteorological feature engineering, LightGBM bias correction, SHAP explainability, FastAPI + Next.js dashboard. | Active |
 | **MatchKey** | AI job-matching portal with HR Copilot, skills extraction, values-based matching, MCP multi-agent architecture. | Accenture GenAI Mavericks Hackathon |
 
 ---
@@ -29,6 +32,7 @@ My background is unusual: structural biology and drug design on one side, equity
 - Agentic pipelines and LLM orchestration for research and decision-making
 - RAG systems for regulated domains (pharma, finance)
 - Quantitative finance tooling: portfolio analytics, factor models, volatility forecasting
+- Physics-informed ML weather forecasting for Madrid (MOS bias correction, LightGBM, SHAP, FastAPI)
 - Cheminformatics and molecular ML: SMILES/IUPAC translation, toxicity prediction, molecular property modelling
 - Full-stack AI applications with Next.js, FastAPI, Supabase, and Python
 
