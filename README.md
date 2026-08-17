@@ -1,66 +1,75 @@
 # Jack Sangster
 
-**Building quantitative tools, ML models, and data-driven products at the intersection of finance, science, and software.**
+Building AI systems where scientific reasoning, quantitative analysis and real-world decisions intersect.
 
-Biochemistry graduate from Imperial College London. Dual master's student at IE University Madrid in Management and Computer Science & Business Technology, with a Finance & Investments concentration.
+Imperial College London (Biochemistry) · IE University Madrid (CS & Management, Finance concentration)
 
-My background is unusual: structural biology and drug design on one side, equity research and financial modelling on the other, tied together by a growing focus on software engineering and applied ML. I am drawn to problems where quantitative depth, scientific literacy, and technical execution matter together.
-
----
-
-## Selected projects & results
-
-| Project | What | Result |
-|---|---|---|
-| **Argo** | AI deal desk for Amazon Shipping BD teams. Ingests RFQs, emails, and spreadsheets; deterministic serviceability rules + pricing engine (3 CM scenarios); logistic win-probability model trained on 360 historical deals; branded PPTX proposal. | **1st place — IE × Amazon Shipping Industry Challenge 2026, 240+ students** |
-| **RepMint** | AI camera coach. MediaPipe pose estimation (33-point), rep counting, form scoring, ROM/tempo/TUT, AI plan generator, 115-exercise library, session logging + insights + AI coach. | **1st place — IE AI Module Demo Day 2026, 240+ students** |
-| **Sentinel** | Geospatial crisis navigation for civilians in conflict zones. 3D globe, live ACLED/OpenSky/USGS layers, AI crisis assistant, crowdsourced hazard reporting. | **2nd place — IE University Cursor AI Hackathon, 300+ competitors** |
-| **SEIL** | AI-governed RAG platform for AstraZeneca Spain's oncology HCP engagement. 7 compliance routing pathways, demand intelligence generation, scored 4.9 vs 3.6 (AZ Engage Copilot). | **Runners-up — IE MIM Tech Impact Lab, 130+ participants, 24 teams** |
-| **SMILES-IUPAC Translation** | Seq2seq transformer for bi-directional SMILES/IUPAC translation, 500K+ PubChem pairs, custom tokenisers. PR #4931 merged to DeepChem. | GSoC 2026 proposal to DeepChem |
-| **Tox21 Toxicity Prediction** | Multitask neural network across 12 assays using DeepChem/MoleculeNet, scaffold splitting, ROC-AUC evaluation. | Molecular ML |
-| **Pharma Brief Automations** | Scheduled agentic pipelines: daily pharma/biotech intel brief (FDA, SEC EDGAR, ClinicalTrials.gov, PubMed, bioRxiv) + weekly FDA catalyst calendar with PDUFA dates and binary event classification. | Live, running daily |
-| **Briefly** | Portfolio-aware market intelligence platform. Morning briefs, pre-open intraday setup, event-driven breaking alerts via Telegram and email. | Solo, in progress |
-| **Cognix** | Personal health intelligence platform. Garmin + Oura integrations, deterministic daily readiness scoring, training mode output. | Solo, in progress |
-| **atmospheric-intelligence** | Physics-informed ML post-processing of NWP forecasts for Madrid and central Spain. AEMET + Open-Meteo + ECMWF → DuckDB, meteorological feature engineering, LightGBM bias correction, SHAP explainability, FastAPI + Next.js dashboard. | Active |
-| **MatchKey** | AI job-matching portal with HR Copilot, skills extraction, values-based matching, MCP multi-agent architecture. | Accenture GenAI Mavericks Hackathon |
+[Portfolio](https://jacksangster03.github.io) · [LinkedIn](https://linkedin.com/in/jacksangster) · [Email](mailto:jacksangster.033@gmail.com)
 
 ---
 
-## What I'm working on
+## Achievements
 
-- Market intelligence platforms: portfolio-aware briefings, pre-open setups, event-driven alerts
-- Agentic pipelines and LLM orchestration for research and decision-making
-- RAG systems for regulated domains (pharma, finance)
-- Quantitative finance tooling: portfolio analytics, factor models, volatility forecasting
-- Physics-informed ML weather forecasting for Madrid (MOS bias correction, LightGBM, SHAP, FastAPI)
-- Cheminformatics and molecular ML: SMILES/IUPAC translation, toxicity prediction, molecular property modelling
-- Full-stack AI applications with Next.js, FastAPI, Supabase, and Python
+🥇 1st — IE × Amazon Shipping Industry Challenge 2026 · 240+ students (Argo)
+🥇 1st — IE AI Module Demo Day 2026 · 240+ students (RepMint)
+🥈 2nd — AstraZeneca × IE Tech Impact Lab · 130+ participants (SEIL)
+🥈 2nd — IE Cursor AI Build Challenge · 300+ competitors (Sentinel)
+🏆 Google Developer Groups Tech Roulette Finalist (Arcadia)
+🏆 Accenture GenAI Mavericks Finalist (MatchKey)
+🤝 Merged contributor — DeepChem (PR #4931, SMILES-IUPAC Translation)
 
 ---
 
-## Areas of interest
+## Selected work
 
-- Quantitative finance, algorithmic trading, and equity research tools
-- Machine learning for molecular biology, drug discovery, and pharma R&D
-- AI agents, LLM orchestration, and autonomous systems
-- Biotech, pharma tech, and digital health
-- RAG, vector databases, and knowledge retrieval at scale
-- Cheminformatics, structural biology, and computational chemistry
-- Fintech infrastructure and capital markets technology
+### Enterprise AI
+
+| Project | What |
+|---|---|
+| **Argo** | AI deal desk for Amazon Shipping BD. Ingests RFQs, CRM notes, emails, and spreadsheets; deterministic serviceability + pricing engine (**3 margin scenarios**); logistic win-probability model trained on **360 historical deals**; branded PPTX proposal. |
+| **SEIL** | Governed RAG platform for AstraZeneca Spain's oncology HCP engagement. **7 compliance pathways**, demand intelligence generation. Scored **4.9 vs 3.6** vs incumbent on weighted selection matrix. |
+| **Pharma Brief Automations** | Scheduled agentic pipelines: daily pharma/biotech intel brief across **5 live sources** (FDA, SEC EDGAR, ClinicalTrials.gov, PubMed, bioRxiv) + weekly FDA catalyst calendar with PDUFA dates and binary event classification. Running daily. |
+| **Briefly** | Portfolio-aware market intelligence platform. Morning briefs, pre-open intraday setup, event-driven breaking alerts via Telegram and email. |
+| **Sentinel** | Geospatial crisis navigation for civilians in conflict zones. 3D globe, **3 live data layers** (ACLED, OpenSky, USGS), AI crisis assistant, crowdsourced hazard reporting. |
+
+### Scientific Intelligence
+
+| Project | What |
+|---|---|
+| **atmospheric-intelligence** | Physics-informed ML post-processing of NWP forecasts for Madrid and central Spain. **3 NWP model sources** (IFS, AIFS, ICON-EU); custom meteorological feature engineering; LightGBM bias correction with SHAP; **39 unit tests**; FastAPI + Next.js. |
+| **SMILES-IUPAC Translation** | Seq2seq transformer for bi-directional translation, trained on **500K+ PubChem compound pairs** with custom tokenisers. PR #4931 merged to DeepChem. |
+
+### Human Performance AI
+
+| Project | What |
+|---|---|
+| **RepMint** | AI camera coach for goal-based training. In-browser pose estimation (MediaPipe, **33-point full-body model**), rep counting, form scoring, ROM/tempo/TUT. AI plan generator. **115-exercise library**. |
+| **Cognix** | Personal health intelligence platform. Wearable biometrics + training logs → deterministic daily readiness score. Planned Garmin and Oura integrations. |
+
+---
+
+## Current focus
+
+- Physics-informed ML for weather forecasting (atmospheric-intelligence)
+- Agentic pipelines for market and pharma intelligence
+- Molecular ML: property prediction, SMILES/IUPAC translation, GNNs
 
 ---
 
 ## Technical stack
 
 **Languages**
-`Python` `R` `SQL` `TypeScript` `JavaScript` `MATLAB`
+`Python` `R` `SQL` `TypeScript` `JavaScript`
 
 **AI Engineering**
-`LangChain` `LangGraph` `RAG` `ChromaDB` `MCP` `Agentic Systems` `Anthropic API` `OpenAI API`
+`LangChain` `LangGraph` `RAG` `pgvector` `ChromaDB` `MCP` `Agentic Systems` `Anthropic API` `OpenAI API`
 
 **ML & Data**
-`PyTorch` `TensorFlow` `DeepChem` `scikit-learn`
-`Pandas` `NumPy` `Matplotlib` `ARIMA` `GARCH` `Monte Carlo` `GNN`
+`PyTorch` `TensorFlow` `DeepChem` `scikit-learn` `LightGBM` `SHAP`
+`Pandas` `NumPy` `DuckDB` `ARIMA` `GARCH` `Monte Carlo` `GNN`
+
+**Computer Vision**
+`MediaPipe` `OpenCV`
 
 **Finance**
 `DCF/DDM modelling` `Comparable valuations` `Portfolio analysis` `Capital markets`
@@ -81,13 +90,13 @@ English (native) · Spanish (native) · German (advanced) · Russian (intermedia
 
 ## Background
 
-**Experience highlights**
+**Experience**
 
-- Equity Research Analyst at Queen's Tower Capital: DCF/DDM modelling, risk evaluation, stock pitches
-- Investment Analyst at Stockhub: comparable company analysis, published equity research
-- Consulting Associate at Varvara Fashion: AI product strategy, market research, business model development
-- Head of Corporate Relations & Education, Imperial College Finance Society: sponsorship, events, 1,000+ member community
-- Sea turtle conservation fieldwork in Greece: nesting data, conservation operations, fundraising
+- Equity Research Analyst, Queen's Tower Capital — DCF/DDM modelling, risk evaluation, stock pitches
+- Investment Analyst, Stockhub — comparable company analysis, published equity research
+- Consulting Associate, Varvara Fashion — AI product strategy, market research, business model development
+- Head of Corporate Relations & Education, Imperial College Finance Society — 1,000+ member community
+- Sea turtle conservation fieldwork, Archelon Greece — nesting data, operations, raised €18,000
 
 **Education**
 
@@ -97,18 +106,6 @@ English (native) · Spanish (native) · German (advanced) · Russian (intermedia
 | BSc Biochemistry | Imperial College London | 2022–2025 |
 
 IE specialisations: Finance & Investments · GSK x IE Biopharma & AI Gateway · Management Xponential Technology · Tech Impact Lab (AstraZeneca Spain)
-
-Final-year project: structural and biochemical characterisation of the CHKB Q328R variant.
-
----
-
-## Currently exploring
-
-- Volatility modelling (GARCH) and quantitative risk management
-- Multi-agent LLM systems for financial research and automation
-- Graph neural networks for molecular property prediction
-- Mathematics for ML: linear algebra, multivariate calculus, PCA
-- Neurotech and BCI: EEG signal processing with MNE-Python
 
 ---
 
