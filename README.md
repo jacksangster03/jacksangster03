@@ -11,11 +11,17 @@ Imperial College London (Biochemistry) · IE University Madrid (CS & Management,
 ## Achievements
 
 🥇 1st — IE × Amazon Shipping Industry Challenge 2026 · 240+ students (Argo)
+
 🥇 1st — IE AI Module Demo Day 2026 · 240+ students (RepMint)
+
 🥈 2nd — AstraZeneca × IE Tech Impact Lab · 130+ participants (SEIL)
+
 🥈 2nd — IE Cursor AI Build Challenge · 300+ competitors (Sentinel)
+
 🏆 Google Developer Groups Tech Roulette Finalist (Arcadia)
+
 🏆 Accenture GenAI Mavericks Finalist (MatchKey)
+
 🤝 Merged contributor — DeepChem (PR #4931, SMILES-IUPAC Translation)
 
 ---
