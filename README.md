@@ -22,8 +22,6 @@ Imperial College London (Biochemistry) · IE University Madrid (CS & Management,
 
 🏆 Accenture GenAI Mavericks Finalist (MatchKey)
 
-🤝 Merged contributor — DeepChem (PR #4931, SMILES-IUPAC Translation)
-
 ---
 
 ## Selected work
