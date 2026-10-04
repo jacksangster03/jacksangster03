@@ -29,7 +29,7 @@ THEMES = {
                   text="#1f2328", muted="#59636e", accent="#0b7a75"),
 }
 
-NAME = "JACK SANGSTER"
+NAME = "Jack Sangster"
 PLACE = "Madrid"
 CURRENT_WORK = [
     ("Pathout", "evacuation coordination"),
@@ -58,10 +58,10 @@ def hero(theme):
 <desc id="d">{escape(alt)}</desc>
 <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="10" fill="{c["bg"]}" stroke="{c["line"]}"/>
 <g stroke="{c["grid"]}" stroke-width="1" opacity="0.8">{grid}</g>
-{text(32, 70, NAME, 52, c["text"], 700)}
+{text(32, 70, NAME, 52, c["text"], 600)}
 {text(W - 32, 70, PLACE, 16, c["muted"], 400, 1, "end")}
 <path d="M32 90H{W - 32}" stroke="{c["line"]}"/>
-{text(32, 116, "CURRENT WORK", 15, c["accent"], 600, 2)}
+{text(32, 116, "Current work", 15, c["accent"], 600, 0.5)}
 {rows}
 </svg>
 '''
