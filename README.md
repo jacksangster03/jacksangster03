@@ -1,121 +1,94 @@
-# Jack Sangster
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Jack Sangster. AI × science × quantitative systems. Madrid, Spain. Currently building." src="assets/hero-light.svg" width="100%">
+</picture>
 
 Building AI systems where scientific reasoning, quantitative analysis and real-world decisions intersect.
 
-Imperial College London (Biochemistry) · IE University Madrid (CS & Management, Finance concentration)
+BSc Biochemistry, Imperial College London. Dual Master's (Management + Computer Science & Business Technology) at IE University, Madrid.
 
-[Portfolio](https://jacksangster03.github.io) · [LinkedIn](https://linkedin.com/in/jacksangster) · [Email](mailto:jacksangster.033@gmail.com)
+**[Systems](#systems)** · **[Toolkit](#toolkit)** · **[Background](#background)** · **[Contact](#contact)**
 
----
+## Currently building
 
-## Achievements
+### Pathout `BUILDING`
+Evacuation coordination and dynamic routing for complex buildings, starting with IE Tower in Madrid. Team build (private repositories) with a 3D simulation of the tower, a collective A* planner with hazard-aware replanning, and a manager/warden dashboard. I work on the dashboard.
 
-🥇 1st — IE × Amazon Shipping Industry Challenge 2026 · 240+ students (Argo)
+Early stage: the dashboard replays a scripted incident (fire on floor 14, a stair compromised, an updated plan applied). It is not connected to a live building, and there are no pilots or measured results.
 
-🥇 1st — IE AI Module Demo Day 2026 · 240+ students (RepMint)
+## Recognition
 
-🥈 2nd — AstraZeneca × IE Tech Impact Lab · 130+ participants (SEIL)
+| | Result | Challenge | Project |
+|---|---|---|---|
+| 🥇 | **1st** | IE × Amazon Shipping Industry Challenge 2026 (240+ students) | Argo |
+| 🥇 | **1st** | IE AI Module Demo Day 2026 (240+ students) | RepMint |
+| 🥈 | **2nd** | AstraZeneca × IE Tech Impact Lab (130+ participants) | SEIL |
+| 🥈 | **2nd** | IE Cursor AI Build Challenge (300+ competitors) | Sentinel |
+| | Finalist | Google Developer Groups Tech Roulette | [Arcadia](https://github.com/jacksangster03/ArcadiaTechRoulette) |
+| | Finalist | Accenture GenAI Mavericks | [MatchKey](https://github.com/jacksangster03/MatchKey-GenAI-Maverick) |
 
-🥈 2nd — IE Cursor AI Build Challenge · 300+ competitors (Sentinel)
+## Systems
 
-🏆 Google Developer Groups Tech Roulette Finalist (Arcadia)
+### RepMint
+Team project · private repository
 
-🏆 Accenture GenAI Mavericks Finalist (MatchKey)
+AI camera coach for goal-based resistance training, running in the browser. MediaPipe 33-point pose estimation drives rep counting, form scoring, range of motion, tempo and time under tension. An AI plan generator builds programmes from a 115-exercise library.
 
----
+### Sentinel
+Team project · [source](https://github.com/simplyYK/sentinel) (teammate's repository)
 
-## Selected work
+Geospatial crisis navigation for civilians in conflict zones. 3D globe with three live data layers (ACLED, OpenSky, USGS), an AI crisis assistant and crowdsourced hazard reporting.
 
-### Enterprise AI
+### Argo
+Team project · private repository
 
-| Project | What |
+AI deal desk for Amazon Shipping business development. Ingests RFQs, CRM notes, emails and spreadsheets, then applies a deterministic serviceability engine and a deterministic pricing engine (three margin scenarios). A logistic win-probability model is trained on 360 historical deals. Generates a branded PPTX proposal.
+
+### SEIL
+Team project · private repository
+
+Governed RAG platform for AstraZeneca Spain's oncology HCP engagement. Seven compliance pathways route requests, with compliance-aware design and demand intelligence generation.
+
+### Briefly
+Solo project · [source](https://github.com/jacksangster03/Briefly)
+
+Local-first portfolio intelligence platform. Six weekday briefing sessions delivered by Telegram and HTML email, built on a rule-based market stack (numbers are deterministic, not LLM-generated) with portfolio-aware relevance scoring. Breaking alerts use cooldowns and a flood cap. FastAPI and HTMX control centre, SQLite, APScheduler. Includes a portfolio workbench with risk analytics and Brinson-Hood-Beebower attribution. Over 1,600 test functions. Data sources include FRED, SEC EDGAR, Finnhub, GDELT, NewsAPI and yfinance.
+
+## Scientific ML
+
+- **atmospheric-intelligence** (private repository). ML post-processing of ECMWF IFS, ECMWF AIFS and ICON-EU forecasts for Madrid. Custom meteorological features, walk-forward validation, LightGBM bias correction, SHAP explanations. FastAPI and Next.js, 259 unit tests.
+- **SMILES ↔ IUPAC** ([source](https://github.com/jacksangster03/smiles-iupac)). Seq2seq transformer for bidirectional molecular name translation, trained on 500K+ PubChem pairs with custom tokenisation.
+
+## Toolkit
+
+| | |
 |---|---|
-| **Argo** | AI deal desk for Amazon Shipping BD. Ingests RFQs, CRM notes, emails, and spreadsheets; deterministic serviceability + pricing engine (**3 margin scenarios**); logistic win-probability model trained on **360 historical deals**; branded PPTX proposal. |
-| **SEIL** | Governed RAG platform for AstraZeneca Spain's oncology HCP engagement. **7 compliance pathways**, demand intelligence generation. Scored **4.9 vs 3.6** vs incumbent on weighted selection matrix. |
-| **Pharma Brief Automations** | Scheduled agentic pipelines: daily pharma/biotech intel brief across **5 live sources** (FDA, SEC EDGAR, ClinicalTrials.gov, PubMed, bioRxiv) + weekly FDA catalyst calendar with PDUFA dates and binary event classification. Running daily. |
-| **Briefly** | Portfolio-aware market intelligence platform. Morning briefs, pre-open intraday setup, event-driven breaking alerts via Telegram and email. |
-| **Sentinel** | Geospatial crisis navigation for civilians in conflict zones. 3D globe, **3 live data layers** (ACLED, OpenSky, USGS), AI crisis assistant, crowdsourced hazard reporting. |
-
-### Scientific Intelligence
-
-| Project | What |
-|---|---|
-| **atmospheric-intelligence** | Physics-informed ML post-processing of NWP forecasts for Madrid and central Spain. **3 NWP model sources** (IFS, AIFS, ICON-EU); custom meteorological feature engineering; LightGBM bias correction with SHAP; **39 unit tests**; FastAPI + Next.js. |
-| **SMILES-IUPAC Translation** | Seq2seq transformer for bi-directional translation, trained on **500K+ PubChem compound pairs** with custom tokenisers. PR #4931 merged to DeepChem. |
-
-### Human Performance AI
-
-| Project | What |
-|---|---|
-| **RepMint** | AI camera coach for goal-based training. In-browser pose estimation (MediaPipe, **33-point full-body model**), rep counting, form scoring, ROM/tempo/TUT. AI plan generator. **115-exercise library**. |
-| **Cognix** | Personal health intelligence platform. Wearable biometrics + training logs → deterministic daily readiness score. Planned Garmin and Oura integrations. |
-
----
-
-## Current focus
-
-- Physics-informed ML for weather forecasting (atmospheric-intelligence)
-- Agentic pipelines for market and pharma intelligence
-- Molecular ML: property prediction, SMILES/IUPAC translation, GNNs
-
----
-
-## Technical stack
-
-**Languages**
-`Python` `R` `SQL` `TypeScript` `JavaScript`
-
-**AI Engineering**
-`LangChain` `LangGraph` `RAG` `pgvector` `ChromaDB` `MCP` `Agentic Systems` `Anthropic API` `OpenAI API`
-
-**ML & Data**
-`PyTorch` `TensorFlow` `DeepChem` `scikit-learn` `LightGBM` `SHAP`
-`Pandas` `NumPy` `DuckDB` `ARIMA` `GARCH` `Monte Carlo` `GNN`
-
-**Computer Vision**
-`MediaPipe` `OpenCV`
-
-**Finance**
-`DCF/DDM modelling` `Comparable valuations` `Portfolio analysis` `Capital markets`
-`Excel VBA` `Power BI` `Tableau`
-
-**Science & Bio**
-`RDKit` `PyMOL` `ChimeraX` `AlphaFold` `AutoDock` `BLAST`
-`Cryo-EM` `NMR` `Drug design` `Bioinformatics`
-
-**Infrastructure**
-`Next.js` `React` `Vite` `Three.js` `Tailwind` `Zustand` `FastAPI` `Streamlit`
-`PostgreSQL` `Supabase` `Docker` `AWS` `Linux`
-
-**Languages (human)**
-English (native) · Spanish (native) · German (advanced) · Russian (intermediate) · French (intermediate)
-
----
+| **ML** | Python · PyTorch · scikit-learn · LightGBM · SHAP · MediaPipe |
+| **Engineering** | TypeScript · Next.js · React · FastAPI · Supabase · PostgreSQL · Docker |
+| **Scientific** | RDKit · bioinformatics · structural biology · scientific computing |
+| **Quantitative** | time series · Monte Carlo · DCF / DDM · portfolio analysis |
 
 ## Background
 
-**Experience**
+<details>
+<summary>Experience, education and languages</summary>
 
-- Equity Research Analyst, Queen's Tower Capital — DCF/DDM modelling, risk evaluation, stock pitches
-- Investment Analyst, Stockhub — comparable company analysis, published equity research
-- Consulting Associate, Varvara Fashion — AI product strategy, market research, business model development
-- Head of Corporate Relations & Education, Imperial College Finance Society — 1,000+ member community
-- Sea turtle conservation fieldwork, Archelon Greece — nesting data, operations, raised €18,000
+**Experience**
+- Equity Research Analyst, Queen's Tower Capital: DCF/DDM modelling, risk evaluation, stock pitches
+- Investment Analyst, Stockhub: comparable company analysis, published equity research
+- Consulting Associate, Varvara Fashion: AI product strategy, market research, business model development
+- Head of Corporate Relations & Education, Imperial College Finance Society: 1,000+ member community
+- Sea turtle conservation fieldwork, Archelon Greece: nesting data, field operations, raised €18,000
 
 **Education**
+- Dual Master's, Management + Computer Science & Business Technology, IE University, Madrid, 2025-2027 (Finance & Investments · GSK × IE Biopharma & AI Gateway · Management Xponential Technology · Tech Impact Lab with AstraZeneca Spain)
+- BSc Biochemistry, Imperial College London, 2022-2025
 
-| Degree | Institution | Years |
-|---|---|---|
-| Dual Master's: Management + CS & Business Technology | IE University, Madrid | 2025–2027 |
-| BSc Biochemistry | Imperial College London | 2022–2025 |
+**Human languages:** English (native) · Spanish (native) · German (advanced) · Russian (intermediate) · French (intermediate)
 
-IE specialisations: Finance & Investments · GSK x IE Biopharma & AI Gateway · Management Xponential Technology · Tech Impact Lab (AstraZeneca Spain)
-
----
+</details>
 
 ## Contact
 
-- Portfolio: [jacksangster03.github.io](https://jacksangster03.github.io)
-- Email: [jacksangster.033@gmail.com](mailto:jacksangster.033@gmail.com)
-- GitHub: [github.com/jacksangster03](https://github.com/jacksangster03)
-- LinkedIn: [linkedin.com/in/jacksangster](https://www.linkedin.com/in/jacksangster/)
+[Portfolio](https://jacksangster03.github.io) · [Email](mailto:jacksangster.033@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jacksangster/) · [GitHub](https://github.com/jacksangster03)
